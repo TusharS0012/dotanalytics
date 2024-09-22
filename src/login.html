@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Modern Login</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="signupForm" onsubmit="handleSignUp(event)">
+                <h1 class="heading">Create Account</h1>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <div class="googleButton"><div id="g_id_onload"
+                    data-client_id="377619953035-v63mtb4vh6jvoeov5ebjsb0kqko9653c.apps.googleusercontent.com"
+                    data-context="signin"
+                    data-ux_mode="popup"
+                    data-login_uri="https://127.0.0.1:5500/src/login.html"
+                    data-itp_support="true">
+                    </div>
+                    <div class="g_id_signin"
+                    data-type="standard"
+                    data-shape="pill"
+                    data-theme="filled_black"
+                    data-text="signin"
+                    data-size="medium"
+                    data-logo_alignment="left">
+                    </div></div>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form id="sign-in-form" onsubmit="handleSignIn(event)">
+                <h1>Sign In</h1>
+                <input id="userlogin" type="email" placeholder="Email">
+                <input id="userPassword" type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="sign" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="sign" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="script.js"></script> 
+</body>
+
+</html>
