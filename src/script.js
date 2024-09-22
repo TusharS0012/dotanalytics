@@ -30,4 +30,5 @@ function handleSignUp(e){
     const password = signupForm.querySelector('input[type="password"]').value;
 
     console.log('Sign Up Attempt:', { name, email, password });
+    wrutowflfa
 }
